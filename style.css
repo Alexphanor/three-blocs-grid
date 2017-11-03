@@ -1,0 +1,116 @@
+ 
+body {
+	
+
+}
+
+
+/* Nav bar with grid display */
+
+ nav ul {
+	display: grid;
+	grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
+	line-height: 50px;
+}
+
+nav li{
+	list-style-type: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #AAA;
+}
+
+a:hover {
+	font-size: 19px;
+	font-weight: bold;
+}
+
+ul .menuItem {
+	background: #ddd;
+	padding-left: 35px;
+	padding-right: 35px;
+	border-right: 1px solid white;
+}
+
+ul .menuBrand {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/* masthead grid layout */
+
+section {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-auto-rows: minmax(550px, auto);
+}
+
+.carousel {	
+	background: url("images/oilchange.jpg") no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    border-radius: 5%;
+}
+
+.carousel p {
+	color: white;
+	background: grey;
+	font-size: 65px;
+    text-align: center;
+	margin-top: 200px;
+}
+
+/* 2 block grid layout */
+
+aside {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 2em;
+	margin-top: 1em;
+}
+
+aside .left {
+	background: url(images/oils.jpg) no-repeat;
+	background-size: cover;
+	background-clip: border-box;
+	border-radius: 5%;
+}
+
+.left h3 {
+    color: white;
+	background: grey;
+	font-size: 35px;
+    text-align: center;
+	margin-top: 75px;
+}
+
+aside .right {
+	background: url(images/garage.jpg) no-repeat;
+	background-size: cover;
+	background-clip: border-box;
+	border-radius: 5%;
+}
+
+.right h3 {
+    color: white;
+	background: grey;
+	font-size: 35px;
+    text-align: center;
+	margin-top: 75px;
+}
+
+/* footer */
+
+footer {
+	height: 30px;
+	width: 100%;
+	color: white;
+	background: grey;
+}
+
+footer p {
+	padding: 5px 0 0 10px;
+}
